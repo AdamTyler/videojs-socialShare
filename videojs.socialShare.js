@@ -257,7 +257,7 @@
 
     };
 
-  var registerPlugin = videojs.registerPlugin || videojs.default.registerPlugin || videojs.plugin;
+  var registerPlugin = videojs.registerPlugin || videojs.plugin;
   registerPlugin('socialShare', socialShare);
 
 })(window, videojs);
